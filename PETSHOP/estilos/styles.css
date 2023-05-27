@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+}
+
+nav {
+    background-color: #F0A83E;
+    color: white;
+}
+
+#recalca {
+    color: black;
+}
+
+.seccion1 {
+    background-image: url(/img/bowl.PNG);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#banner1 {
+    background-color: white;
+    color: 3C2313;
+}
+
+#banner2 {
+    background-color: #F0A83E ;
+}
+
+.seccion2 {
+    background-color: E5E5E5;
+}
+
+.precio {
+    color: #F0A83E;
+    font-weight: bold;
+
+}
+
+.contactar {
+    background-color: #3C2313 ;
+    display: inline-block;
+}
+
+div img {
+    height: 200px;
+}
+
+#suscribir {
+    background-color: #F0A83E;
+}
+footer {
+    background-color: #3C2313;
+}
+
+footer div {
+    background-color: #222222;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
