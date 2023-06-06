@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/*HEADER */
+
+
+
+
+h1 {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #222222;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-right: 20px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.verde {
+    color: #39B24A;
+}
+
+.rojo {
+    color: #FC200C;
+}
+
+.card1-main-image {
+    height: 350px;
+    width: 490px;
+    margin-top: 35px;
+    margin-left: 19px;
+}
+
+/* MAAAAAA IINNNNNNNN */
+
+
+.container {
+    display: flex;
+    background-color: #E5E5E5 ;
+    justify-content: center;
+    gap: 10px;
+    height: 450px ;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.caja1 {
+    width: 48%;
+    border-radius: 10px;
+    height: 90%;
+    background-image: url(img/delivery.jpg);
+    background-size: cover;
+    padding: 15px;
+    
+}
+
+.caja2 {
+    width: 48%;
+    height:90%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.caja1 h4 {
+    padding-left: 30px;
+    text-align: left;
+    color: #FC200C;
+    font-size: 24px;
+    
+}
+
+.caja2 h4 {
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+    
+}
+
+.caja2 ol {
+    position: absolute;
+    left: 80px;
+    top: 110px;
+}
+
+main div h4 span {
+    color: white;
+}
+
+.caja1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.caja2 h3{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+.caja2 li {
+    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.caja2 img {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    height: 129px;
+    width: 92px;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.listapie {
+    list-style: none;
+    align-self: center;
+    padding-left: 20px;
+}
+
+.logofooter {
+    width: 220px;
+    height: 80px;
+    align-self: center;
+    padding-right: 20px;
+}
+
+footer ul li {
+    padding: 8px;
+}
+
