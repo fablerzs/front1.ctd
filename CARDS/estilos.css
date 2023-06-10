@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header div {
+    background-color: #D1891C;
+}
+
+header h1 {
+    background-color: #00669F;
+    color:  white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;  
+    padding: 2%;
+    height: 90%;
+}
+
+.card {
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 530px;
+    border-radius:10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px;
+    overflow: hidden;
+    position: relative;
+ 
+}
+
+.nuevo {
+    background-color: #00669F;
+    height: 5vh;
+    width: 5vh;
+    position: fixed;
+    border-radius: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    right: 5%;
+    bottom: 12%;
+    text-align: center;
+
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+.img-like {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+    padding: 1em;
+    display: flex;
+}
+
+.git {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width:768px) {
+    section {
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+
