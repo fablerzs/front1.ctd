@@ -11,6 +11,7 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
+
 }
 
 .ofertas {
@@ -21,6 +22,7 @@ header span {
     
     padding-right: 50px;
 }
+
 
 
 /*NAAAAV BAR */
@@ -45,6 +47,7 @@ header span {
 
 .navbar li {
     padding: 10px;
+    list-style: none;
 }
 
 #recalca {
@@ -60,48 +63,88 @@ header span {
 
 /* MAAAAAAIN */
 
-.contenedor1{
+.cover {
     background-image: url(/img/bowl.PNG);
     background-size: cover;
-    height: 500px;
-    width: 100%;
-    
-    
-
-    
+    background-repeat: no-repeat;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-right: 50px;
+    gap: 10px;
 }
 
-
-.seccion1 {
- display: flex;
- flex-direction: column;
-
-}
-
-
-.banner1 {
+.cover div {
     background-color: white;
-    color: 3C2313;
-    height: 95px;
-    width: 365px;
-    font-size: 30px;
-    border-radius: 10px;
- 
+    font-size: 2rem;
+    padding: .8rem;
+    border-radius: 8px;
 }
 
-.banner2 {
-    background-color: #F0A83E ;
+.cover p {
+    font-size: 1rem;
+    color: #3C2313;
 }
 
-.seccion2 {
-    background-color: E5E5E5;
+.cover span {
+    background-color: #F0A83E;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white;
 }
+
+.los_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.los_productos h2 {
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.los_productos ul {
+    display: flex;
+}
+
+.los_productos li {
+    list-style: none;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.las_tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .precio {
     color: #F0A83E;
     font-weight: bold;
 
 }
+
+
+/*SECCION CONTACTACNOS */
 
 .contactar {
     background-color: #3C2313 ;
@@ -111,6 +154,9 @@ header span {
 div img {
     height: 200px;
 }
+
+
+/*FOOOOOTEEER */
 
 #suscribir {
     background-color: #F0A83E;
