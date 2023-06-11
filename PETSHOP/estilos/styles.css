@@ -119,6 +119,7 @@ header span {
 .los_productos h2 {
     font-size: 40px;
     color: #3C2313;
+    text-align: center;
 }
 
 .los_productos ul {
@@ -300,6 +301,15 @@ footer li span {
         flex-wrap: wrap;
         height: 120px;
     }
+
+    .blanco {
+        width: 65%;
+    }
+
+.contactanos li {
+    width: 90%;
+}
+
     .navbar li {
         display: none;
     }
