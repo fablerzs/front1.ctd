@@ -50,14 +50,17 @@ header span {
     list-style: none;
 }
 
-#recalca {
-    color: black;
-}
 
 .navbar h5 {
     font-size: 20px;
     align-self: center;
     padding-left: 20px;
+}
+
+.menu {
+    display: none;
+    height: 20px;
+    width: 20px;
 }
 
 
@@ -76,7 +79,15 @@ header span {
     gap: 10px;
 }
 
-.cover div {
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.boton_blanco {
     background-color: white;
     font-size: 2rem;
     padding: .8rem;
@@ -90,10 +101,13 @@ header span {
 
 .cover span {
     background-color: #F0A83E;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1rem;
     border-radius: 8px;
     color: white;
+    width: 141px;
+    height: 49px;
+    text-align: center;
 }
 
 .los_productos {
@@ -117,6 +131,10 @@ header span {
     font-size: 0.8rem;
 }
 
+.tarjeta img {
+    height: 260px;
+}
+
 .las_tarjetas {
     display: flex;
     justify-content: center;
@@ -124,18 +142,13 @@ header span {
     padding-top: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.tarjeta {
+    background-color: #FBFAF6;
+    text-align: center;
+    font-size: 1rem;
+    font-weight:500;
+    height:312px;
+}
 
 .precio {
     color: #F0A83E;
@@ -146,29 +159,162 @@ header span {
 
 /*SECCION CONTACTACNOS */
 
-.contactar {
-    background-color: #3C2313 ;
-    display: inline-block;
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
 
-div img {
-    height: 200px;
+.contactanos h4 {
+    font-size: 1.5rem;
+    color: #3C2313;
+    padding-bottom: 20px;
 }
+
+
+.contactanos li {
+    list-style: none;
+    background-color: #3C2313;
+    color: white;
+    font-size:.7rem;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    padding: .9rem;
+    margin: 15px;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.amarillo {
+    background-color: #f0a83e;
+    width: 110px;
+    height: 34px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+  }
+  
+.gris {
+    background-color: #8a8787;
+    width: 110px;
+    height: 34px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+  }
+  
+
 
 
 /*FOOOOOTEEER */
 
-#suscribir {
+.suscribirme {
     background-color: #F0A83E;
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 60px;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
 }
+
+.suscribirme div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.suscribirme ul {
+    display: flex;
+    padding-right: 30px;
+    list-style: none;
+    gap: 2rem;
+}
+
+.blanco {
+    background-color: white;
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    color: #A0A0A0;
+    font-size: 9px;
+    padding-top: .9rem;
+    padding-left: 20px;
+}
+
+.cafe {
+    background-color: #3C2313;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: white;
+    padding-top: .8rem;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
 footer {
     background-color: #3C2313;
 }
 
-footer div {
+footer li {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #3C2313;
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer li span {
+    font-size:10px;
+}
+
+.pie {
     background-color: #222222;
     color: white;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 2px;
 }
+
+@media (max-width:768px) {
+    .las_tarjetas {
+        flex-wrap: wrap;
+    }
+    .suscribirme {
+        flex-wrap: wrap;
+        height: 120px;
+    }
+    .navbar li {
+        display: none;
+    }
+    .menu {
+        display:flex;
+        align-self: center;
+        position: absolute;
+        right: 20px;
+    }
+    header {
+        display: none;
+    }
+
+}
+
 
 
 
