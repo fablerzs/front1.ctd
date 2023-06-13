@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/estilos/estilosformulario.css" rel="stylesheet">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <header>
+        <div class="top">20% de descuento en todos los productos!</div>
+        <h1> <img src="/img/Logo.png" alt="tienda"> Nombre Tienda</h1>
+        <div class="menu">
+            <div>Contacto</div>
+            <div>Registrarme</div>
+            <div>Ingresar</div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="formulario">
+            <h2>Añade tu superhéroe</h2>
+            <h4>Agrega tu personaje favorito completando las opciones.</h4>
+                <form action="registro" method="hero" class="container">                     
+                   <div class="campo">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="campo">
+                        <label>*Especie</label>
+                        <select>
+                            <option>Especie</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha">
+                    </div>
+
+                    <div class="campo">
+                        <label for="document">Agregar Foto</label>
+                        <div class="archivo">
+                            <input class="archivo" type="file" name="document" id="document">
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <textarea>Descripción</textarea>
+                    </div>
+                    <div class="checklist">
+                        <div class="check">
+                            <label>Poderes <br>
+                                <input type="checkbox" name="poderes" value="volar">Volar <br>
+                                <input type="checkbox" name="poderes" value="superinteligencia">SuperInteligencia <br>
+                                <input type="checkbox" name="poderes" value="vistaderayolaser">Vista de rayo laser <br>
+                                <input type="checkbox" name="poderes" value="billeteragorda">Billetera gorda <br>
+                            </label>
+
+                        </div>
+                        <div class="check">
+                            <label>Tipo de personaje <br>
+                                <input type="radio" name="type" value="type">Heroe / Heroina <br>
+                            <input type="radio" name="type" value="type">Villano / Villana <br>
+                            </label>
+                        </div>
+                    </div>
+
+                 
+
+                    
+                </form>
+
+                <button>AÑADIR</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <span>Todos los derechos reservados a FRONT END 1 </span>
+    </footer>
+    
+</body>
+</html>

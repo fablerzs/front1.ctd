@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
 *{
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
 }
 
 header div {
@@ -40,22 +41,19 @@ section {
  
 }
 
-.nuevo {
-    background-color: #00669F;
-    height: 5vh;
-    width: 5vh;
+
+.boton {
     position: fixed;
-    border-radius: 100%;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
     right: 5%;
-    bottom: 12%;
-    text-align: center;
+    bottom: 10%;
 
 }
 
-.card img {
+a {
+    text-decoration: none;
+}
+
+.cover {
     width: 100%;
     object-fit: contain;
 }
@@ -70,6 +68,9 @@ section {
     width: 30px;
     height: 30px;
     position: absolute;
+    top: 10px;
+    left: 10px;
+
 }
 
 footer {
@@ -77,6 +78,12 @@ footer {
     color: white;
     padding: 1em;
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.derechos{
+    align-self: center;
 }
 
 .git {
@@ -91,6 +98,10 @@ footer {
         flex-wrap: wrap;
     }
     
+}
+
+@media (min-width:769px){
+    .boton {display: none;}
 }
 
 
