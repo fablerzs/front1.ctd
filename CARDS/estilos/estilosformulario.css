@@ -29,13 +29,18 @@ header h1 {
 
 .menu {
     background-color: #001D2D;
-    color: white;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
-    font-size: 1rem;
     gap: 10px;
 }
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
  /*MAIIIIN*/
 
 main {
@@ -55,7 +60,6 @@ main {
     padding-top: 10px;
     color: white;
     font-family: 'Inter', sans-serif;
-
 }
 
 .formulario h2 {
@@ -134,7 +138,9 @@ button {
     height: 87px;
     border: none;
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
+
 
 
 
@@ -148,3 +154,33 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.menu a:hover {
+    color:#1CD1B0;
+}
+
+.menu a:active {
+    color: palevioletred;
+}
+
+button:hover {
+    background-color: #001D2D;
+    color: white;
+    height: 95px;
+    width: 43%;
+}
+
+input:hover,textarea:hover, select:hover {
+    border: solid #1CD1B0 3px;
+}
+
+input:checked {
+    border: green solid 3px;
+}
+
+.poderes:hover {
+    color: #001D2D;
+}
+
+
+

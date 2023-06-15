@@ -9,11 +9,11 @@
 <body>
     <header>
         <div class="top">20% de descuento en todos los productos!</div>
-        <h1> <img src="/img/Logo.png" alt="tienda"> Nombre Tienda</h1>
+        <h1> <a href="/index.html"> <img src="/img/Logo.png" alt="tienda"></a> Nombre Tienda</h1>
         <div class="menu">
-            <div>Contacto</div>
-            <div>Registrarme</div>
-            <div>Ingresar</div>
+            <a href=""><div> Contacto</div></a>
+            <a href=""><div>Registrarme</div></a>
+            <a href=""><div>Ingresar</div></a>
         </div>
     </header>
 
@@ -24,17 +24,19 @@
                 <form action="registro" method="hero" class="container">                     
                    <div class="campo">
                         <label for="Nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
+                        <input type="text" name="nombre" id="nombre" placeholder="Fabian">
                     </div>
                     <div class="campo">
                         <label>*Especie</label>
                         <select>
-                            <option>Especie</option>
+                            <option value="marciano" selected>Marciano</option>
+                            <option value="humano">Humano</option>
+                            <option value="gato">Gato</option>
                         </select>
                     </div>
                     <div class="campo">
                         <label for="fecha">Fecha</label>
-                        <input type="date" name="fecha">
+                        <input type="date" name="fecha" min="1990-12-12" max="2000-12-12">
                     </div>
 
                     <div class="campo">
@@ -44,22 +46,22 @@
                         </div>
                     </div>
                     <div class="campo">
-                        <textarea>Descripción</textarea>
+                        <textarea>EL MAS FUERTE DE TODOS, OMNIPOTENTE</textarea>
                     </div>
                     <div class="checklist">
                         <div class="check">
                             <label>Poderes <br>
-                                <input type="checkbox" name="poderes" value="volar">Volar <br>
-                                <input type="checkbox" name="poderes" value="superinteligencia">SuperInteligencia <br>
-                                <input type="checkbox" name="poderes" value="vistaderayolaser">Vista de rayo laser <br>
-                                <input type="checkbox" name="poderes" value="billeteragorda">Billetera gorda <br>
+                                <label class="poderes"><input type="checkbox" name="poderes" value="volar">Volar <br></label>
+                                <label class="poderes" ><input type="checkbox" name="poderes" value="superinteligencia" checked>SuperInteligencia <br></label>
+                                <label class="poderes"><input type="checkbox" name="poderes" value="vistaderayolaser">Vista de rayo laser <br></label>
+                                <label class="poderes"><input type="checkbox" name="poderes" value="billeteragorda">Billetera gorda <br></label>
                             </label>
 
                         </div>
                         <div class="check">
                             <label>Tipo de personaje <br>
-                                <input type="radio" name="type" value="type">Heroe / Heroina <br>
-                            <input type="radio" name="type" value="type">Villano / Villana <br>
+                                <label class="poderes"><input type="radio" name="type" value="type">Heroe / Heroina <br></label>
+                                <label class="poderes"><input type="radio" name="type" value="type" checked>Villano / Villana <br></label>
                             </label>
                         </div>
                     </div>
@@ -69,7 +71,7 @@
                     
                 </form>
 
-                <button>AÑADIR</button>
+                <a href="/index.html"><button>AÑADIR</button></a>
 
         </div>
     </main>
