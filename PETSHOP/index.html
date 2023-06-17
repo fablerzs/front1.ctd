@@ -38,7 +38,7 @@
             <div class="contenedor">
               <div class="boton_blanco">¡Es un placer tenerte aquí!</div>
               <p>¡Comederos en descuento!</p>
-              <span>COMEDEROS</span>
+              <button>COMEDEROS</button>
             </div>
          </section>
          
@@ -78,14 +78,15 @@
         <section class="contactanos">    
              <!--SECCION CONTACTANOS-->
                 <h4>Contáctanos</h4>
-                <ul>
-                    <li>Nombre y apellido</li>
-                    <li>Ingresa tu correo electronico</li>
-                    <li>Telefono</li>
-                </ul>
-                <div class="botones">
-                    <div class="gris">Resetear</div><div class="amarillo">Enviar</div>
-                </div>
+                <form>
+                    <input type="text" name="nombre" placeholder="Nombre y apellido"></input>
+                    <input type="email" name="email" placeholder="Ingresa tu correo electronico"></input>
+                    <input type="tel" name="telefono" placeholder="Telefono"></input>
+                    <div class="botones">
+                        <button type="reset" class="gris">Resetear</button><button type="submit" class="amarillo">Enviar</button>
+                    </div>
+                </form>
+                
 
             </section>
 
@@ -96,10 +97,10 @@
              <img src="/img/enviar-correo 1.png" alt="">
              <h3>Suscribete para más novedades</h3>
             </div>
-            <ul>
-                <li class="blanco">Ingresa tu correo electronico</li>
-                <li class="cafe">Suscribirme</li>
-            </ul>
+            <form>
+                <input class="blanco" placeholder="Ingresa tu correo electronico">
+                <button type="submit" class="cafe">Suscribirme</button>
+            </form>
         </section>
 
         <footer>

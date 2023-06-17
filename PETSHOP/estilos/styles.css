@@ -99,7 +99,7 @@ header span {
     color: #3C2313;
 }
 
-.cover span {
+.cover button {
     background-color: #F0A83E;
     padding: 1rem;
     font-size: 1rem;
@@ -108,12 +108,14 @@ header span {
     width: 141px;
     height: 49px;
     text-align: center;
+    border: none;
 }
 
 .los_productos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
 
 .los_productos h2 {
@@ -173,8 +175,13 @@ header span {
     padding-bottom: 20px;
 }
 
+.contactanos form {
+    display: flex;
+    flex-direction: column;
+}
 
-.contactanos li {
+
+.contactanos input {
     list-style: none;
     background-color: #3C2313;
     color: white;
@@ -184,12 +191,14 @@ header span {
     border-radius: 15px;
     padding: .9rem;
     margin: 15px;
+    border: none;
 }
 
 .botones {
     display: flex;
     gap: 10px;
     padding: 10px;
+    justify-content: center;
 }
 
 .amarillo {
@@ -200,6 +209,7 @@ header span {
     text-align: center;
     border-radius: 15px;
     color: white;
+    border: none;
   }
   
 .gris {
@@ -210,6 +220,7 @@ header span {
     text-align: center;
     border-radius: 15px;
     color: white;
+    border: none;
   }
   
 
@@ -234,7 +245,7 @@ header span {
     gap: 1rem;
 }
 
-.suscribirme ul {
+.suscribirme form {
     display: flex;
     padding-right: 30px;
     list-style: none;
@@ -248,8 +259,8 @@ header span {
     border-radius: 15px;
     color: #A0A0A0;
     font-size: 9px;
-    padding-top: .9rem;
     padding-left: 20px;
+    border: none;
 }
 
 .cafe {
@@ -258,10 +269,11 @@ header span {
     height: 34px;
     border-radius: 15px;
     color: white;
-    padding-top: .8rem;
+    
     text-align: center;
     font-size: 9px;
     font-weight: bold;
+    border: none;
 }
 
 
@@ -323,6 +335,61 @@ footer li span {
         display: none;
     }
 
+}
+
+
+/*** PSEUDOSELECTORES */
+
+.cover button:hover {
+    background-color: #3C2313;
+}
+
+.cover button:active {
+    background-color: green;
+}
+
+.productos li:hover {
+    color: #F0A83E;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.blanco::placeholder {
+    color: #3C2313;
+    font-size: 12px;
+
+}
+
+.cafe:hover {
+    background-color: white;
+    color:#3C2313;
+}
+
+.gris:hover {
+    background-color: #222222;
+
+}
+
+.amarillo:hover {
+    background-color: #222222;
+}
+
+.navbar li:hover {
+    color: #3C2313;
+    cursor: pointer;
+}
+
+header span:hover {
+    color: #F0A83E;
+    cursor: pointer;
+}
+
+
+.tarjeta:hover {
+    cursor: pointer;
 }
 
 
