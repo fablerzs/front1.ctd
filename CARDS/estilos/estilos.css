@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
+.inicio {
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inicio a {
+    font-size: 40px;
+    color: black;
+}
+
+.inicio a:hover {
+    color: #D1891C;
+}
+
 *{
     margin: 0 auto;
     box-sizing: border-box;
