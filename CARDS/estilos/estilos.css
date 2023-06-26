@@ -4,7 +4,7 @@
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    max-width: 1440px;
+
 }
 
 header div {
@@ -21,15 +21,16 @@ header h1 {
 section {
     background-color: white;
     display: flex;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;  
     padding: 2%;
-    height: 90%;
+    height: 82vh;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: #f3f3f3;
     width: 300px;
     height: 530px;
@@ -38,8 +39,32 @@ section {
     box-shadow: 0px;
     overflow: hidden;
     position: relative;
- 
 }
+
+.img2 {
+    position: relative;
+    top: -35px;
+}
+
+.card p {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.card h5 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card button {
+    width: 128px;
+    height: 48px;
+    background-color: #00669F;
+    border: none;
+    color: white;
+}
+
 
 
 .boton {
@@ -70,7 +95,6 @@ a {
     position: absolute;
     top: 10px;
     left: 10px;
-
 }
 
 footer {
