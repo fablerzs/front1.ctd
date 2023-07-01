@@ -28,7 +28,7 @@ header h1 {
   height: 530px;
   width: 300px;
   background-color: #F3F3F3;
-  margin: 100px 0;
+  margin: 20vh 0;
   border-radius: 10px 10px 0px 0px;
   align-items: center;
   position: relative;
@@ -65,4 +65,22 @@ header h1 {
   background-color: #00669F;
   border: none;
   color: white;
+}
+
+.boton {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00669F;
+  height: 50px;
+  align-items: center;
+}
+footer div {
+  color: white;
+  padding: 0 40px;
 }/*# sourceMappingURL=estilos.css.map */
