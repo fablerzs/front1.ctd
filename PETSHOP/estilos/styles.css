@@ -67,7 +67,7 @@ header span {
 /* MAAAAAAIN */
 
 .cover {
-    background-image: url(/img/bowl.PNG);
+    background-image: url(../img/bowl.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 409px;
