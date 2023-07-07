@@ -73,9 +73,9 @@ li {
     background-color: #E5E5E5 ;
     justify-content: center;
     gap: 10px;
-    height: 450px ;
+    height:80vh;
     width: 100%;
-    padding: 20px;
+    padding: 150px 100px; 
     align-items: center;
 
 }
